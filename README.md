@@ -1,4 +1,4 @@
-# cue-electron-clean-cli
+# vue-electron-clean-cli
 基于vue-cli4 和 vue-cli-electron-plugin创建，加入配置项vue.config.js.
 
 ## 命令
