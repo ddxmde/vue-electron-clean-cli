@@ -1,24 +1,22 @@
 # share-window
 
-## Project setup
-```
-npm install
-```
+## 命令
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- 初始化 `npm install`
+- 调试vue `npm run serve`
+- 编译vue `npm run build`
+- 调试electron `npm run electron:serve`
+- 编译electron `npm run electron:build`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 配置相关
 
-### Lints and fixes files
-```
-npm run lint
-```
+### vue.config.js
+- webpack相关
+- vue 相关
+- electron编译选项
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### background.js
+- 窗口
+- IPC
+
+
