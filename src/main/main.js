@@ -13,7 +13,7 @@ let win
 protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
-function registerSafeFileProtocol() {
+function registerSafeFileProtocol () {
   const safeFileProtocol = 'electrondemo-safe-file-protocol'
   protocol.registerFileProtocol(safeFileProtocol, (request, callback) => {
     const url = request.url.replace(`${safeFileProtocol}://`, '')
@@ -26,8 +26,6 @@ function registerSafeFileProtocol() {
     }
   })
 }
-
-
 
 function createWindow () {
   // Create the browser window.
@@ -103,6 +101,5 @@ if (isDevelopment) {
   }
 }
 
-
-//ipc通信
-const {ipcMain} = require('electron')
+// ipc通信
+const { ipcMain } = require('electron')
